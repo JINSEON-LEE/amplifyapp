@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "auth": {
+      "amplifyapp0bbfb25d": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "api": {
+      "notesapp": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "storage": {
+      "imagestorage": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "Note:@model(appsync)": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
